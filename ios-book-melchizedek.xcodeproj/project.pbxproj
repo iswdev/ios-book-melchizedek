@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE08458021AC844300642E7B /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08457F21AC844300642E7B /* MainTableViewCell.swift */; };
 		CE9D6B7221A9FF0A001049E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B7121A9FF0A001049E5 /* AppDelegate.swift */; };
-		CE9D6B7421A9FF0A001049E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B7321A9FF0A001049E5 /* ViewController.swift */; };
+		CE9D6B7421A9FF0A001049E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B7321A9FF0A001049E5 /* MainViewController.swift */; };
 		CE9D6B7721A9FF0A001049E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9D6B7521A9FF0A001049E5 /* Main.storyboard */; };
 		CE9D6B7A21A9FF0A001049E5 /* ios_book_melchizedek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B7821A9FF0A001049E5 /* ios_book_melchizedek.xcdatamodeld */; };
 		CE9D6B7C21A9FF0C001049E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9D6B7B21A9FF0C001049E5 /* Assets.xcassets */; };
 		CE9D6B7F21A9FF0C001049E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9D6B7D21A9FF0C001049E5 /* LaunchScreen.storyboard */; };
+		CE9D6B8721AC6F20001049E5 /* JsonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B8621AC6F20001049E5 /* JsonUtils.swift */; };
+		CE9D6B8921AC6F71001049E5 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B8821AC6F71001049E5 /* RootTableViewController.swift */; };
+		CE9D6B8B21AC7176001049E5 /* RootTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B8A21AC7176001049E5 /* RootTableViewCell.swift */; };
+		CE9D6B8F21AC7499001049E5 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B8E21AC7499001049E5 /* DataSource.swift */; };
+		CE9D6B9121AC7828001049E5 /* Chapter.json in Resources */ = {isa = PBXBuildFile; fileRef = CE9D6B9021AC7828001049E5 /* Chapter.json */; };
+		CE9D6B9321AC783C001049E5 /* Content.json in Resources */ = {isa = PBXBuildFile; fileRef = CE9D6B9221AC783C001049E5 /* Content.json */; };
+		CE9D6B9521AC7A48001049E5 /* NSDictionary.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B9421AC7A48001049E5 /* NSDictionary.extension.swift */; };
+		CEC6917021AD29CA007BB4CA /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEC6916F21AD29CA007BB4CA /* icon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE08457F21AC844300642E7B /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		CE9D6B6E21A9FF0A001049E5 /* ios-book-melchizedek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-book-melchizedek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9D6B7121A9FF0A001049E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE9D6B7321A9FF0A001049E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE9D6B7321A9FF0A001049E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CE9D6B7621A9FF0A001049E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE9D6B7921A9FF0A001049E5 /* ios_book_melchizedek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_book_melchizedek.xcdatamodel; sourceTree = "<group>"; };
 		CE9D6B7B21A9FF0C001049E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9D6B7E21A9FF0C001049E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE9D6B8021A9FF0C001049E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9D6B8621AC6F20001049E5 /* JsonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonUtils.swift; sourceTree = "<group>"; };
+		CE9D6B8821AC6F71001049E5 /* RootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		CE9D6B8A21AC7176001049E5 /* RootTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewCell.swift; sourceTree = "<group>"; };
+		CE9D6B8E21AC7499001049E5 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		CE9D6B9021AC7828001049E5 /* Chapter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Chapter.json; sourceTree = "<group>"; };
+		CE9D6B9221AC783C001049E5 /* Content.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Content.json; sourceTree = "<group>"; };
+		CE9D6B9421AC7A48001049E5 /* NSDictionary.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDictionary.extension.swift; sourceTree = "<group>"; };
+		CEC6916F21AD29CA007BB4CA /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +74,22 @@
 		CE9D6B7021A9FF0A001049E5 /* ios-book-melchizedek */ = {
 			isa = PBXGroup;
 			children = (
+				CEC6916F21AD29CA007BB4CA /* icon.jpg */,
 				CE9D6B7121A9FF0A001049E5 /* AppDelegate.swift */,
-				CE9D6B7321A9FF0A001049E5 /* ViewController.swift */,
+				CE9D6B8821AC6F71001049E5 /* RootTableViewController.swift */,
+				CE9D6B8A21AC7176001049E5 /* RootTableViewCell.swift */,
+				CE9D6B7321A9FF0A001049E5 /* MainViewController.swift */,
+				CE08457F21AC844300642E7B /* MainTableViewCell.swift */,
 				CE9D6B7521A9FF0A001049E5 /* Main.storyboard */,
 				CE9D6B7B21A9FF0C001049E5 /* Assets.xcassets */,
 				CE9D6B7D21A9FF0C001049E5 /* LaunchScreen.storyboard */,
 				CE9D6B8021A9FF0C001049E5 /* Info.plist */,
 				CE9D6B7821A9FF0A001049E5 /* ios_book_melchizedek.xcdatamodeld */,
+				CE9D6B8621AC6F20001049E5 /* JsonUtils.swift */,
+				CE9D6B9421AC7A48001049E5 /* NSDictionary.extension.swift */,
+				CE9D6B8E21AC7499001049E5 /* DataSource.swift */,
+				CE9D6B9021AC7828001049E5 /* Chapter.json */,
+				CE9D6B9221AC783C001049E5 /* Content.json */,
 			);
 			path = "ios-book-melchizedek";
 			sourceTree = "<group>";
@@ -125,9 +152,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9D6B9321AC783C001049E5 /* Content.json in Resources */,
 				CE9D6B7F21A9FF0C001049E5 /* LaunchScreen.storyboard in Resources */,
 				CE9D6B7C21A9FF0C001049E5 /* Assets.xcassets in Resources */,
 				CE9D6B7721A9FF0A001049E5 /* Main.storyboard in Resources */,
+				CEC6917021AD29CA007BB4CA /* icon.jpg in Resources */,
+				CE9D6B9121AC7828001049E5 /* Chapter.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9D6B7421A9FF0A001049E5 /* ViewController.swift in Sources */,
+				CE9D6B7421A9FF0A001049E5 /* MainViewController.swift in Sources */,
+				CE08458021AC844300642E7B /* MainTableViewCell.swift in Sources */,
+				CE9D6B8721AC6F20001049E5 /* JsonUtils.swift in Sources */,
+				CE9D6B8921AC6F71001049E5 /* RootTableViewController.swift in Sources */,
+				CE9D6B8B21AC7176001049E5 /* RootTableViewCell.swift in Sources */,
 				CE9D6B7221A9FF0A001049E5 /* AppDelegate.swift in Sources */,
 				CE9D6B7A21A9FF0A001049E5 /* ios_book_melchizedek.xcdatamodeld in Sources */,
+				CE9D6B8F21AC7499001049E5 /* DataSource.swift in Sources */,
+				CE9D6B9521AC7A48001049E5 /* NSDictionary.extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +329,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "franciscoigor.ios-book-melchizedek";
+				PRODUCT_BUNDLE_IDENTIFIER = me.franciscoigor.book.melchizedek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,7 +347,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "franciscoigor.ios-book-melchizedek";
+				PRODUCT_BUNDLE_IDENTIFIER = me.franciscoigor.book.melchizedek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
