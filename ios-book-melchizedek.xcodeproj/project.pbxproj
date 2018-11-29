@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE08458021AC844300642E7B /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08457F21AC844300642E7B /* MainTableViewCell.swift */; };
+		CE96AFD121AF88600000C02F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE96AFD021AF885F0000C02F /* README.md */; };
 		CE9D6B7221A9FF0A001049E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B7121A9FF0A001049E5 /* AppDelegate.swift */; };
 		CE9D6B7421A9FF0A001049E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6B7321A9FF0A001049E5 /* MainViewController.swift */; };
 		CE9D6B7721A9FF0A001049E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9D6B7521A9FF0A001049E5 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		CE08457F21AC844300642E7B /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		CE96AFD021AF885F0000C02F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE9D6B6E21A9FF0A001049E5 /* ios-book-melchizedek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-book-melchizedek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9D6B7121A9FF0A001049E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9D6B7321A9FF0A001049E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		CE9D6B6521A9FF0A001049E5 = {
 			isa = PBXGroup;
 			children = (
+				CE96AFD021AF885F0000C02F /* README.md */,
 				CE9D6B7021A9FF0A001049E5 /* ios-book-melchizedek */,
 				CE9D6B6F21A9FF0A001049E5 /* Products */,
 			);
@@ -155,6 +158,7 @@
 				CE9D6B9321AC783C001049E5 /* Content.json in Resources */,
 				CE9D6B7F21A9FF0C001049E5 /* LaunchScreen.storyboard in Resources */,
 				CE9D6B7C21A9FF0C001049E5 /* Assets.xcassets in Resources */,
+				CE96AFD121AF88600000C02F /* README.md in Resources */,
 				CE9D6B7721A9FF0A001049E5 /* Main.storyboard in Resources */,
 				CEC6917021AD29CA007BB4CA /* icon.jpg in Resources */,
 				CE9D6B9121AC7828001049E5 /* Chapter.json in Resources */,

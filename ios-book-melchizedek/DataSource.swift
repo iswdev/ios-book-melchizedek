@@ -58,7 +58,7 @@ class DataSource: NSObject {
                     entities = try managedContext.fetch(fetchRequest)
                 }
             } catch let error as NSException {
-                print("Could not fetch \(entity): \(error) " + error.userInfo)
+                print("Could not fetch \(entity): \(error) ")
             } catch let error as NSError {
                 print("Could not fetch \(entity): \(error), \(error.userInfo)")
             }

@@ -50,7 +50,7 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aeS-Mv-ixh">
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aeS-Mv-ixh">
                                                             <rect key="frame" x="0.0" y="27" width="355" height="55.5"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <attributedString key="attributedText">
@@ -142,13 +142,13 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKN-4N-R5v">
-                                            <rect key="frame" x="76" y="11" width="54.5" height="22"/>
+                                            <rect key="frame" x="76" y="11" width="273" height="22"/>
                                             <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="19"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJr-uC-ydz">
-                                            <rect key="frame" x="76" y="38" width="46.5" height="22"/>
+                                            <rect key="frame" x="76" y="38" width="273" height="22"/>
                                             <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -162,7 +162,9 @@
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstAttribute="trailingMargin" secondItem="LKN-4N-R5v" secondAttribute="trailing" constant="10" id="7Wi-3Z-swq"/>
                                         <constraint firstItem="PJr-uC-ydz" firstAttribute="leading" secondItem="2eS-ww-Alj" secondAttribute="leadingMargin" constant="60" id="MEI-Uf-H5e"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="PJr-uC-ydz" secondAttribute="trailing" constant="10" id="QfR-SB-Iox"/>
                                         <constraint firstItem="LKN-4N-R5v" firstAttribute="leading" secondItem="2eS-ww-Alj" secondAttribute="leadingMargin" constant="60" id="awO-nD-hz2"/>
                                         <constraint firstItem="LKN-4N-R5v" firstAttribute="top" secondItem="2eS-ww-Alj" secondAttribute="topMargin" id="iDe-tL-gAa"/>
                                         <constraint firstItem="PJr-uC-ydz" firstAttribute="top" secondItem="LKN-4N-R5v" secondAttribute="bottom" constant="5" id="lZT-qM-5Ag"/>
